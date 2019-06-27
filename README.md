@@ -154,9 +154,7 @@ Here, we are using InfluxDB as a datasource for Grafana to plot the information 
 
 **Step-1:**
 
-```
-Run the command <b>influx</b> to connect to influx DB CLI and create database to store firewall inspect count values
-``` 
+Run the command **influx** to connect to influx DB CLI and create database to store firewall inspect count values
 
 **Sample Response**
 
@@ -217,7 +215,7 @@ Use web browser and login to Grafana at http://localhost:3000/  (Username/Passwo
 
 **Step-2:**
 
-select Add Data Sources and select Influx DB. 
+Select Add Data Sources and select Influx DB. 
 
 ![datasource](images/datasource_1.png)
 
@@ -260,7 +258,11 @@ Now Grafana sends query to influx DB and plots the graph on Dashboard as seen be
 
 -	Above graph corresponds to this plot on vmanage. At 27 June 2019, 3.30 AM IST, we can see the firewall inspect count value as 2539 which is same value as seen on vManage. 
 
+## Firewall Inspect Count Chart
+
 ![vmanage](images/vmanage_dashboard.png)
+
+## Firewall Inspect Count Details
 
 ![vmanage_detail](images/vmanage_detail.png)
 
