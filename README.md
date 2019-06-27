@@ -250,7 +250,6 @@ We have to query `firewall_inspect_count` values from Influx DB using below cond
 
 **FROM** : default,firewall_inspect_count<br>
 **GROUP BY** : time($_interval),fill(linear)<br>
-**FORMAT AS** : Time series<br>
 
 Now Grafana sends query to influx DB and plots the graph on Dashboard as seen below.
 
