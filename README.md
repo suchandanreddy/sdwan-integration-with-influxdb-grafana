@@ -255,7 +255,7 @@ Now Grafana sends query to influx DB and plots the graph on Dashboard as seen be
 
 ![Dashboard](images/grafana_dashboard.png)
 
--	Above graph corresponds to this plot on vmanage. At 27 June 2019, 3.30 AM IST, we can see the firewall inspect count value as 2539 which is same value as seen on vManage. 
+-	Above graph corresponds to this below plot on vmanage. At 27 June 2019, 3.30 AM IST, we can see the firewall inspect count value as 2539 which is same value as seen on vManage. 
 
 ## Firewall Inspect Count Chart
 
