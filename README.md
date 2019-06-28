@@ -1,5 +1,9 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/suchandanreddy/sdwan-integration-with-influxdb-grafana)
 
+# Objective
+
+How to retrieve the firewall inspect counter values, store firewall inspect count values in a Time Series Database (TSDB) Influx DB and plot it on to Grafana Dashboard.
+
 # Install and Setup
 
 Clone the code to local machine.
@@ -28,10 +32,6 @@ Install Grafana -  `brew install grafana`
 Verify homebrew/services is installed before starting the Grafana service - `brew tap homebrew/services`
 
 Start Grafana service - `brew services start grafana`
-
-# Objective
-
-How to retrieve the firewall inspect counter values, store firewall inspect count values in a Time Series Database (TSDB) Influx DB and plot it on to Grafana Dashboard
 
 ## Resource URL Structure Components
 
